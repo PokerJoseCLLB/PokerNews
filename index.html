@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+    body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+
+    h1{
+        padding: 50;
+        font-size: 90px;
+        color: white;
+        margin:25px
+    }
+
+    h2{
+        font-size: 50px;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h3{
+        margin-top: 12%;
+        margin: 2.5%;
+        color: white;
+        font-size: 30px;
+
+    }
+
+    table{
+        width: 75%;
+    }
+
+    .logo{
+        border-radius: 25px;
+    }
+
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0
+        background: rgb(17,44,125);
+        background: linear-gradient(90deg, #112c7d, #ea1c22);
+    }
+
+  #newsletter {
+      margin:5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  max-height: fit-content;
+  max-width: 75%;
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#newsletter:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#newsletterheader{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+}
+
+#newsfeed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#newssum{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+
+
+#results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;    
+}
+
+summary{
+    color: white;
+    font-size: 30px;
+}
+
+    </style>
+</head>
+<body>
+<div id="container">
+<div id="newsletter">
+   <div id="newsletterheader">
+       <img src="coral-logo.jpg" alt="" srcset="" height="100px" class="logo">
+       <h1>Poker News</h1>
+       <img src="ladbrokes234c.png" alt="" srcset="" height="100px" class="logo">
+   </div>
+   <div id="newsfeed">
+       <div id="titlediv">
+        <h2 id="title">AND THE WINNER IS</h2>
+       </div>
+       <div id="pic">
+    <img src="https://i.ibb.co/2Mdz9RH/Microsoft-Teams-image-final.jpg" alt="Microsoft-Teams-image-final" border="0" />       </div>
+       <div id="name"><h2>MASSIMO SPADA</h2></div>
+       <div id="newsum">
+           <h3>
+               The winner of our November Poker Tournament is Massimo Spada. <br>
+               The sole survivor was playing against the trio of  the Manager Team in the final four: Kit Goodman Edwards, Owen Bridges and the newcomer José da Silveira. <br>
+               Slowly he broke the chipstack of each of the managers crowining himself this November Poker Champion! <br>
+               Also on the winner list we have Adam Lahouriri, that made a bet that Massimo would be the winner of this tournament!<br>
+               Thank you to all that participated and we hope to see you in our tables very soon! <br>
+               You can check the complete tournament results below by clicking on the tournament results arrow. <br>
+               We will be in touch regarding the Xmas tournament soon! <br>
+            </h3>
+        </div>
+       <div id="results">
+        <details>
+            <summary>Tournament Results</summary>
+            <table class="table table-dark table-striped" id="tournament-results" border=0 cellpadding=0 cellspacing=0  style='border-collapse:
+ collapse;table-layout:fixed;'>
+ <col class=xl65 width=67 style='mso-width-source:userset;mso-width-alt:2327;
+ width:50pt'>
+ <col class=xl65 width=107 style='mso-width-source:userset;mso-width-alt:3723;
+ width:80pt'>
+ <col class=xl65 width=292 style='mso-width-source:userset;mso-width-alt:10193;
+ width:219pt'>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 width=67 style='height:14.5pt;width:50pt;font-size:
+  16.0pt;color:white;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Calibri, sans-serif;background:#FFC000;
+  mso-pattern:#FFC000 none'>Rank</td>
+  <td class=xl65 width=107 style='width:80pt;font-size:16.0pt;color:white;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri, sans-serif;background:#FFC000;mso-pattern:#FFC000 none'>Screen
+  Name</td>
+  <td class=xl65 width=292 style='width:219pt;font-size:16.0pt;color:white;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri, sans-serif;background:#FFC000;mso-pattern:#FFC000 none'>Real
+  Name</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl66 style='height:14.5pt;font-size:16.0pt;color:#FFE699;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri, sans-serif;background:#DBDBDB;mso-pattern:#DBDBDB none'>1</td>
+  <td class=xl66 style='font-size:16.0pt;color:#FFE699;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;background:#DBDBDB;mso-pattern:#DBDBDB none'>Maxo99</td>
+  <td class=xl66 style='font-size:16.0pt;color:#FFE699;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;background:#DBDBDB;mso-pattern:#DBDBDB none'>
+  <div ccp_infra_version=3 ccp_infra_timestamp=1637937368291 ccp_infra_user_hash=981950308
+  ccp_infra_copy_id=6556e28f-cf6e-4143-9c36-c33c07c66120 data-ccp-timestamp=1637937368291>Massimo
+  Spada</div>
+  </td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl67 style='height:14.5pt;font-size:16.0pt;color:#C9C9C9;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri, sans-serif;background:#EDEDED;mso-pattern:#EDEDED none'>2</td>
+  <td class=xl67 style='font-size:16.0pt;color:#C9C9C9;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;background:#EDEDED;mso-pattern:#EDEDED none'>Baioccho</td>
+  <td class=xl67 style='font-size:16.0pt;color:#C9C9C9;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;background:#EDEDED;mso-pattern:#EDEDED none'>OWEN
+  BRIDGES</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl68 style='height:14.5pt;font-size:16.0pt;color:#F4B084;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri, sans-serif;background:#DBDBDB;mso-pattern:#DBDBDB none'>3</td>
+  <td class=xl68 style='font-size:16.0pt;color:#F4B084;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;background:#DBDBDB;mso-pattern:#DBDBDB none'>LazarusPT78</td>
+  <td class=xl68 style='font-size:16.0pt;color:#F4B084;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;background:#DBDBDB;mso-pattern:#DBDBDB none'>JOSE
+  DASILVEIRA</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>4</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>FloppedItAgain</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>KIT</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>5</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>SG101289</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>SOPHIE
+  GOSLING</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>6</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>AdamJ2193</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>ADAM
+  LAHOUIRI</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>7</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Htest12</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>HELEN
+  </td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>8</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>Albs11</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>ALBA
+  SCANLON</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>9</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Hdhehbr</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>CRAIG
+  PERRY</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>10</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>marcela13</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>MARCELA
+  NADIN</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>11</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Ruth818</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>RUTH
+  BREWER</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>12</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>gvccljt14</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>JT VAN
+  WINSEN</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>13</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Dusik91</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>OLGA
+  KUDRJAVCEVA</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>14</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>KawaiiDesu</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>GARETH
+  CRUZ</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>15</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Wakeup77</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>GA LO</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>16</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>tJar1</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>MARCIN
+  JAROCKI</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>17</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>UntalT99</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>CAYETANO
+  GAMING COMMERCIAL EXECUTIVE</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>18</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>McMonster</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>PAUL
+  MC-MORN</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>19</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Pedro2022</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>PEDRO
+  PEDRO</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>20</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>Test_Blaise99</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>BLAISE
+  COOK</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>21</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Fergiec99</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>CAROLINE
+  FERGUSON</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>22</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>Bronz55</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>GRANT
+  N'JIE</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>23</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>testgvccljt14</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>JT VAN
+  WINSEN</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>24</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>SamtestWB</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>SAMUEL
+  GOODALL</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>25</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Hippetyhop</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>CARLOS
+  SANCHEZ</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>26</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>Scott199530</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>SCOTT
+  BLAKE</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>27</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>tori2233</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>VICTORIA
+  LOCKE</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#EDEDED;mso-pattern:
+  #EDEDED none'>28</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>Red5352535</td>
+  <td class=xl65 style='background:#EDEDED;mso-pattern:#EDEDED none'>ADAM TEST</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl65 style='height:14.5pt;background:#DBDBDB;mso-pattern:
+  #DBDBDB none'>29</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>Yetanotherjak14</td>
+  <td class=xl65 style='background:#DBDBDB;mso-pattern:#DBDBDB none'>JACK
+  REYNOLDS</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=67 style='width:50pt'></td>
+  <td width=107 style='width:80pt'></td>
+  <td width=292 style='width:219pt'></td>
+ </tr>
+ <![endif]>
+        </table>
+        </details>
+        </div>
+        <h3>
+            Do not forget we have a new mobile poker app for Coral and Ladbrokes. <br>
+            You can easely find it on your appstore. <br>
+         </h3>
+        
+         <div id="download">
+            <a href="https://ibb.co/3SmPCcX"><img src="https://i.ibb.co/HGT9Hqv/googlestore.png" alt="googlestore" border="0" height="150px"/></a>
+            <a href="https://ibb.co/Kqp45T3"><img src="https://i.ibb.co/G24Ydzb/apple.png" alt="apple" border="0" height="100px"/></a>
+         </div>
+
+   </div>
+</div>
+
+</div>
+</body>
+</html>
